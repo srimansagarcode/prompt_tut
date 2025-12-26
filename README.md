@@ -272,3 +272,41 @@ Instead of just asking for a summary, a well-designed prompt looks like this:
 > "The team met at the Champalimaud Centre in Lisbon to discuss the project."
 > **Output:**
 > Location: Lisbon, Portugal
+
+
+
+Text summarization is the process of condensing long articles or complex ideas into short, easy-to-read versions. It is one of the most useful applications for AI.
+
+### Essential Information
+
+* **Goal:** To capture the main ideas while removing "fluff" and unnecessary details.
+* **Prompt Structure:** You can use simple commands like "Summarize," "Explain," or "TL;DR."
+* **Refining Length:** You can specify the exact length, such as "in one sentence" or "in three bullet points."
+* **The "A:" Format:** Using labels like **Q:** (Question) and **A:** (Answer) helps the AI understand that a specific response is expected.
+
+---
+
+### Example: From Long to Short
+
+**Input Text (About Antibiotics):**
+
+> "Antibiotics are a type of medication used to treat bacterial infections. They work by either killing the bacteria or preventing them from reproducing, allowing the body’s immune system to fight off the infection. They are not effective against viral infections, and using them inappropriately can lead to antibiotic resistance."
+
+**Simple Summary Prompt:**
+
+> "Explain the text above in one sentence for a 5th grader."
+
+**Result:**
+
+> "Antibiotics are special medicines that kill germs called bacteria, but they don't work on viruses like the cold or flu."
+
+---
+
+### Summary Table: Summarization Techniques
+
+| Technique | How to do it | Why it's useful |
+| --- | --- | --- |
+| **Basic** | "Summarize this: [Text]" | Quick, general overview. |
+| **Constrained** | "Summarize this in exactly 20 words." | Forces the AI to be very brief. |
+| **Audience-based** | "Explain this like I'm five." | Simplifies complex jargon. |
+| **Format-based** | "Summarize into 3 bullet points." | Makes the info easy to scan. |
