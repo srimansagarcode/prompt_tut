@@ -1,0 +1,25 @@
+{
+"users": [
+{
+"id": 101,
+"username": "alex_rivera",
+"role": "Admin",
+"email": "alex.rivera@proj-mgmt.io",
+"tags": ["Lead", "Strategy", "Billing"]
+},
+{
+"id": 102,
+"username": "sarah_chen",
+"role": "Contributor",
+"email": "s.chen@proj-mgmt.io",
+"tags": ["Design", "UI/UX"]
+},
+{
+"id": 103,
+"username": "mark_wilson",
+"role": "Viewer",
+"email": "not-an-email",
+"tags": ["Stakeholder", "External"]
+}
+]
+}
